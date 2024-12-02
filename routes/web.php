@@ -49,3 +49,11 @@ Route::get('/pegawai/edit/{id}','App\Http\Controllers\PegawaiDBController@edit')
 Route::post('/pegawai/update','App\Http\Controllers\PegawaiDBController@update');
 Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiDBController@hapus');
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiDBController@cari');
+
+Route::get('/baju', 'App\Http\Controllers\BajuController@index');
+Route::get('/baju/tambah', 'App\Http\Controllers\BajuController@tambah');
+Route::post('/baju/store','App\Http\Controllers\BajuController@store');
+Route::get('/baju/edit/{id}','App\Http\Controllers\BajuController@edit');
+Route::post('/baju/update','App\Http\Controllers\BajuController@update');
+Route::get('/baju/hapus/{id}','App\Http\Controllers\BajuController@hapus');
+Route::get('/baju/cari','App\Http\Controllers\BajuController@cari');
