@@ -57,3 +57,8 @@ Route::get('/baju/edit/{id}','App\Http\Controllers\BajuController@edit');
 Route::post('/baju/update','App\Http\Controllers\BajuController@update');
 Route::get('/baju/hapus/{id}','App\Http\Controllers\BajuController@hapus');
 Route::get('/baju/cari','App\Http\Controllers\BajuController@cari');
+
+Route::get('/keranjangbelanja', 'App\Http\Controllers\KeranjangBelanjaController@index');
+Route::get('/keranjangbelanja/tambah', 'App\Http\Controllers\KeranjangBelanjaController@tambah');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangBelanjaController@store');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangBelanjaController@hapus');

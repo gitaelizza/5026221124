@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <br/>
   <title>Gita Elizza Larasati - 5026221124</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,9 +11,29 @@
   <script src="/js/solid.js"></script>
 </head>
 <body>
+    <!-- Navbar -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Keranjang Belanja</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://example.com/link1" target="_blank">Link 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://example.com/link2" target="_blank">Link 2</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+     End of Navbar -->
 
 <div class="container">
-    <h2>Gita Elizza Larasati - 5026221124</h2>
+ <h2>Gita Elizza Larasati - 5026221124</h2>
     <h3>@yield('tulisan1')</h3>
 
     @yield('link1')
